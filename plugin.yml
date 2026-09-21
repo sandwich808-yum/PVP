@@ -1,0 +1,18 @@
+name: PvPConsent
+version: 1.0.0
+main: com.example.pvpconsent.PvPConsentPlugin
+api-version: "1.20"
+description: Players can only fight each other after both agree to a PvP duel.
+
+commands:
+  pvp:
+    description: Challenge a player to a PvP duel
+    usage: /pvp <player>
+  pvpaccept:
+    description: Accept a PvP challenge
+    aliases: [pvpacept]
+    usage: /pvpaccept [player]
+  pvprefuse:
+    description: Refuse a PvP challenge
+    aliases: [pvprefused, pvpdeny]
+    usage: /pvprefuse [player]
